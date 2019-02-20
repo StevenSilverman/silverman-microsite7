@@ -1,0 +1,131 @@
+header {
+	padding: 1rem 0;
+	background-color: #000;
+	/*background-color: #B1560F;*/
+	/*background-color: #eb3145;*/
+}
+
+.menu a, .menu .button {
+	padding: 0;
+}
+
+header h1 {
+	text-align: center;	
+}
+
+.menu {
+	justify-content: center;
+}
+
+.test {
+	background-color: #000;
+	/*background-color: #eb3145;*/
+	padding: 3rem 0;
+}
+
+p.desc {
+	font-size: 12px;
+}
+
+.bg {
+	width: 100%;
+}
+
+main {
+	padding: 3rem 0;
+	background-color: #fff;
+	/*background-color: #fbd08e;*/
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 18px;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 24px;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 24px;
+	padding-top: 1rem;
+}
+
+p {
+	font-family: 'Work Sans', sans-serif;
+	color: #fff;
+}
+
+label {
+	color: #fff;
+}
+
+.subscribe {
+	padding: 3rem 0;
+	background-color: #303030;
+}
+
+.intro {
+	padding: 3rem 0;
+	background-color: #303030;
+}
+
+.things {
+	padding: 3rem 0;
+	background-color: #202020;
+}
+
+.places {
+	padding: 3rem 0;
+	background-color: #202020;
+}
+
+footer {
+	padding: 1rem 0;
+	background-color: #000;
+	/*background-color: #B1560F;*/
+	/*background-color: #964000;*/
+	/*background-color: #eb3145;*/
+}
+
+form {
+	margin-left: 30px;
+}
+
+a.button {
+	background-color: black;
+	margin-left: 30px;
+}
+
+a.button:hover
+{
+	background-color: #FFF;
+	/*background-color: #FFA500*/
+}
+
+.floated_img
+{
+    float: left;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
